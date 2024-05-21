@@ -1,0 +1,97 @@
+body, html {
+    height: 100%;
+    background-color: #F0EAD6;  /* A soothing light cream background for the whole page */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    background: #ffffff; /* White background for a clean look */
+    border-radius: 15px; /* Smoothly rounded corners for the card */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Gently enlarge the card on hover */
+}
+
+.logo {
+    width: 150px; /* Increased logo size for better visual impact */
+}
+
+.signup-title {
+    color: #333; /* Classic dark gray for text */
+    font-weight: 600; /* Bold for emphasis */
+    font-size: 24px; /* Slightly smaller font size */
+}
+
+.input-field {
+    background-color: #fff9e6; /* Light yellow background for easy viewing */
+    border-radius: 50px; /* Fully rounded input field */
+    border: 1px solid #d4b26f; /* Light golden border for emphasis */
+    color: #6c757d; /* Gray text for good contrast */
+    padding-left: 20px; /* Padding to make room for the text */
+}
+
+.input-field:focus {
+    border-color: #b8964f; /* Darker gold on focus for prominence */
+    box-shadow: 0 0 5px rgba(255, 249, 230, 0.5); /* Soft outer glow for focus indication */
+}
+
+.btn-primary {
+    background-color: #5c4033; /* Deep brown for a strong visual presence */
+    border-color: #5c4033; /* Consistent border color */
+    color: #fff; /* White text for maximum contrast */
+    width: 100%; /* Full width for buttons */
+    margin: 0 auto; /* Centered for symmetry */
+}
+
+.btn-primary:hover {
+    background-color: #48302a; /* A touch darker on hover for interactive feedback */
+    border-color: #402928;
+}
+
+.btn-outline-secondary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d; /* Matching text color */
+    border-color: #ccc; /* Light border for a soft look */
+    width: 100%; /* Full width for a unified appearance */
+    padding: 10px; /* Adequate padding for comfort */
+}
+
+.social-logo {
+    width: 20px; /* Width of the logos */
+    height: 20px; /* Height of the logos */
+    margin-right: 8px; /* Space between logo and text */
+}
+
+.google-btn:hover, .facebook-btn:hover {
+    background-color: #5c4033; /* Dark brown on hover */
+    color: #fff; /* White text on hover */
+    border-color: #5c4033; /* Consistent border color on hover */
+}
+
+.google-btn:hover .social-logo, .facebook-btn:hover .social-logo {
+    filter: invert(1); /* White logos on hover */
+}
+
+.link {
+    color: #5c4033; /* Warm brown link color for aesthetic coherence */
+    text-decoration: none; /* No underline for a cleaner look */
+}
+
+.link:hover {
+    text-decoration: underline; /* Underline on hover for user interaction */
+}
+
+.social-buttons button {
+    margin-bottom: 10px; /* Spacing between buttons for visual separation */
+}
+
+@media (max-width: 576px) {
+    .form-control, .btn {
+        border-radius: 30px; /* Slightly less rounded on smaller screens for proportional aesthetics */
+    }
+}
