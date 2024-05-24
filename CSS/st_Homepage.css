@@ -1,0 +1,58 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand .logo {
+    height: 40px;
+}
+
+.hero-section {
+    background-color: #FFF0BC; /* Light yellow background */
+    padding: 60px 0;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #002D72; /* Dark blue color */
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.features-section {
+    background-color: #f8f9fa;
+}
+
+.feature-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature-box img {
+    height: 60px;
+}
+
+.feature-box p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Specific Feature Box Colors */
+.feature-box-1 {
+    background-color: #FFC0CB; /* Light pink background */
+}
+
+.feature-box-2 {
+    background-color: #D8BFD8; /* Thistle background */
+}
+
+.feature-box-3 {
+    background-color: #ADD8E6; /* Light blue background */
+}
