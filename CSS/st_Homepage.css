@@ -8,14 +8,14 @@ body {
 }
 
 .hero-section {
-    background-color: #FFF0BC; /* Light yellow background */
+    background-color: #FFF0BC; 
     padding: 60px 0;
 }
 
 .hero-title {
     font-size: 3rem;
     font-weight: bold;
-    color: #002D72; /* Dark blue color */
+    color: #002D72; 
 }
 
 .hero-subtitle {
@@ -46,13 +46,13 @@ body {
 
 /* Specific Feature Box Colors */
 .feature-box-1 {
-    background-color: #FFC0CB; /* Light pink background */
+    background-color: #FFC0CB; 
 }
 
 .feature-box-2 {
-    background-color: #D8BFD8; /* Thistle background */
+    background-color: #D8BFD8; 
 }
 
 .feature-box-3 {
-    background-color: #ADD8E6; /* Light blue background */
+    background-color: #ADD8E6; 
 }
